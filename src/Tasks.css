@@ -1,0 +1,33 @@
+.Tasks{
+    background-color:rgb(247, 247, 187);
+    border: 1px solid rgb(233, 209, 150);
+    border-radius: 20px;
+
+}
+
+.card-title{
+    font-size: 12px;
+  text-align: center;
+}
+
+.complete{
+    font-size: 12px;
+    text-align: center;
+}
+
+.not-complete{
+    font-size: 12px;
+    text-align: center;
+}
+.taskBox {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .task-wrapper {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  

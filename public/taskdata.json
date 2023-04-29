@@ -1,0 +1,38 @@
+ [
+      {
+        "taskID": "a1",
+        "taskName": "Dentist Appointment",
+        "topic": "",
+        "categoryID": 1,
+        "dueDate": "21-05-2023",
+        "doneStatus": false
+      },
+      {
+        "taskID": "a2",
+        "taskName": "Web App Homework",
+        "topic": "",
+        "categoryID": 3,
+        "dueDate": "19-06-2023",
+        "doneStatus": true
+      },
+
+      {
+        "taskID": "b1",
+        "taskName": "Shopping for a holiday",
+        "topic": "",
+        "categoryID": 2,
+        "dueDate": "17-05-2023",
+        "doneStatus": false
+      },
+
+      {
+        "taskID": "b2",
+        "taskName": "Visiting my grandma",
+        "topic": "",
+        "categoryID": 4,
+        "dueDate": "16-09-2023",
+        "doneStatus": false
+      }
+    ]
+  
+  

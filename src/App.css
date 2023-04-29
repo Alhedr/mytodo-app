@@ -1,38 +1,173 @@
-.App {
+.banner {
+  width: 100%;
+  padding: 1pt 0;
+  text-align: center;
+  background: rgb(241, 198, 142);
+  border: 2px solid rgb(2, 3, 3);
+  
+  
+}
+
+.entPage {
+  background-color: rgb(247, 237, 224);
+  border: 2px solid rgb(2, 3, 3);
+  
+  
+  
+  
+
+
+}
+
+.logo-container{
+  
+  height: 8%;
+  width: 8%;
+  flex: 1;
+  float: left;
+  margin-top: 5pt;
+  margin-left: 5pt;
+  margin-right: 15pt;
+  
+  
+}
+
+
+
+.content {
+  font-family: "Monaco", Monospace;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  
+  
+  
+  
+  
+}
+
+.content img {
+  height: 20%;
+  width: 20%;
+  flex: 1;
+  float: left;
+  margin-top: 60pt;
+  margin-left: 60pt;
+  margin-right: 15pt;
+}
+.content p {
+  flex: 1;
+  float: left;
+  margin-top: 130pt;
+  margin-left: 40pt;
+  margin-right: 15pt;
+  text-align: left;
+
+}
+
+h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+h3 {
+  font-size: 15px;
+  margin: 20px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content p {
+  font-size: 15px;
+  text-align: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.taskView {
+  height: 50px;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: darkslategrey;
   color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.signout-btn {
+  height: 40px;
+  font-size: small;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  font-family: "Monaco", Monospace;
+  font-size: 12pt;
+  margin-left: 5pt;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: "Monaco", Monospace;
+  
 }
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.complete {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.not-complete {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.service {
+  background-color: #f9f9f9;
+  margin: 10px;
+}
+
+.service:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.taskBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+

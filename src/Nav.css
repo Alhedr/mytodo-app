@@ -1,0 +1,94 @@
+
+  
+  nav {
+    display: flex;
+    align-items: right;
+  }
+  
+  
+  
+  .signout-btn {
+    font-size: 15px;
+    display: flex;
+    align-items: right;
+    border: 1px solid rgba(225, 179, 179, 0.995);
+    background-color: #dddddd;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 30px;
+    margin: 4px 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .signout-btn:hover {
+    background-color: #ffffff;
+    color: rgb(241, 198, 142);
+  }
+
+  .home-btn {
+    font-size: 15px;
+    align-items: right;
+    background-color: #dddddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .home-btn:hover {
+
+    background-color: #ffffff;
+    color: rgb(241, 198, 142);
+  }
+
+  .cont-btn {
+    font-size: 15px;
+    align-items: right;
+    background-color: #dddddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cont-btn:hover {
+
+    background-color: #ffffff;
+    color: rgb(241, 198, 142);
+  }
+
+  .viw-btn {
+    font-size: 15px;
+    align-items: right;
+    background-color: #dddddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .viw-btn:hover {
+
+    background-color: #ffffff;
+    color: rgb(241, 198, 142);
+  }
+
+  .creat-btn {
+    font-size: 15px;
+    align-items: right;
+    background-color: #dddddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .creat-btn:hover {
+
+    background-color: #ffffff;
+    color: rgb(241, 198, 142);
+  }
+
+  
